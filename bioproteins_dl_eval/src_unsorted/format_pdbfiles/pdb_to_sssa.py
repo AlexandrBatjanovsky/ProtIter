@@ -1,3 +1,4 @@
+# получение аннотации вторичной структуры по файлу PDB
 import copy
 import heapq
 import numpy as np

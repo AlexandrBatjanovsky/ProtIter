@@ -1,3 +1,6 @@
+#!/home/alexandersn/anaconda3/bin/python3
+# -*- coding: utf-8 -*-
+# сохраняет расстояния между Сb(или Са дли гли) в белке полностью и частично по порогу
 import os
 import numpy as np
 import pandas as pd

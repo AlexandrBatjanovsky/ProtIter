@@ -1,5 +1,7 @@
-#!/usr/bin/python
+#!/home/alexandersn/anaconda3/bin/python3
 # -*- coding: utf-8 -*-
+# вычисление расстояний между Са-атомами и построение цветовой сетки
+# программа работает сама по себе с указанием файла-пдб в коде
 __author__ = 'ar'
 
 import os
@@ -24,7 +26,7 @@ map_1to3 = {y:x for x, y in map_3to1.items()}
 
 
 def main_run():
-    path_pdb = '/home/ar/github.com/bioproteins_dl.git/data/1a5i.pdb'
+    path_pdb = '/home/alexandersn/WORK/Python/ProtIter/annaha/projects/homodimers/bioproteins_dl_eval/data/1a5i.pdb'
     pdb = prody.parsePDB(path_pdb, subset='ca')
     coords = pdb.getCoords()
     dst_mat = sdst.cdist(coords, coords, 'euclidean')

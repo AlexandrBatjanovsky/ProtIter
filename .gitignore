@@ -2,3 +2,11 @@
 bioproteins_dl_eval/.ipynb_checkpoints
 bioproteins_dl_eval/.idea
 bioproteins_dl_eval/data
+bioproteins_dl_eval/src_unsorted/bio_utils/.ipynb_checkpoints/
+bioproteins_dl_eval/src_unsorted/deep_docking_homo/.ipynb_checkpoints/
+bioproteins_dl_eval/src_unsorted/deep_docking_homo/debug_xray_images/.ipynb_checkpoints/
+bioproteins_dl_eval/src_unsorted/deepfold_experiments/.ipynb_checkpoints/
+bioproteins_dl_eval/src_unsorted/dockground/.ipynb_checkpoints/
+bioproteins_dl_eval/src_unsorted/format_pdbfiles/.ipynb_checkpoints/
+bioproteins_dl_eval/src_unsorted/interface_to_inprotein_matching/.ipynb_checkpoints/
+bioproteins_dl_eval/src_unsorted/msa_matrices/.ipynb_checkpoints/

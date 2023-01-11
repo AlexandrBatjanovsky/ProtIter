@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/home/alexandersn/anaconda3/bin/python3
 # -*- coding: utf-8 -*-
 __author__ = 'ar'
 

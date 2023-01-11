@@ -1,5 +1,6 @@
-#!/usr/bin/python
+#!/home/alexandersn/anaconda3/bin/python3
 # -*- coding: utf-8 -*-
+# используется некий файл с неясным мне форматом из множественного выравнивания psi для вычисления некой матрицы выравнивания
 __author__ = 'ar'
 
 import os

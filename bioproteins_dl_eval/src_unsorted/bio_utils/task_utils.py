@@ -1,17 +1,18 @@
-#!/usr/bin/python
+#!/home/alexandersn/anaconda3/bin/python3
 # -*- coding: utf-8 -*-
+# распаралеливание, многопоточность(?). Нигде не используется.
 __author__ = 'ar'
 
 import time
 import numpy as np
-from functools import partial
+from functools import partial     # изменение числа подаваемых параметров
 from typing import Optional as O, Union as U
 from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor
 import logging
 
 
 def default_print_task_function(idx, idx_num, step_, task_name: str, level=1):
-    level_pref = '\t' * level
+    level_pref = '\t' * level   # дальность отступа
     if step_ is not None:
         if (idx % step_) == 0:
             logging.info('{}[{}/{}] (l{}) ({})'.format(level_pref, idx, idx_num, level, task_name))
@@ -19,7 +20,7 @@ def default_print_task_function(idx, idx_num, step_, task_name: str, level=1):
 
 def task_function_helper_default(pdata, funtion_ptr):
     idx, idx_num, print_fun, params_ = pdata
-    ret = funtion_ptr(*params_)
+    ret = funtion_ptr(*params_) # любое количество аргументов
     print_fun(idx, idx_num)
     return ret
 

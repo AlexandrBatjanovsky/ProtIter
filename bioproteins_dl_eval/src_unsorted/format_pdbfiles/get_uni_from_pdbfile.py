@@ -68,7 +68,7 @@ def annotate_interfaces(cdir, pdbuni):
     wfile.flush()
     wfile.close()
 
-def annotate_ecod(cdir, pdbuni):
+def annotate_ecod(cdir, pdbuni):    # не используется
 
     wfile = open(cdir+'map_ecod_20000_comparison.txt', 'w')
     ifile = open(cdir+'idx-ecod-pdb2uniprot-raw.txt')
