@@ -1,5 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+# Пространственное выравнивание белков и их интерфейсов
 __author__ = 'ar'
 
 import os
