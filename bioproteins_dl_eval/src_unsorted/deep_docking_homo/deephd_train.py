@@ -37,7 +37,7 @@ def main_train():
                       checkpoint_callback=checkpoint_callback,
                       early_stop_callback=False,
                       gpus=[0])
-     #distributed_backend='ddp')
+    #distributed_backend='ddp')
     trainer.fit(pipeline)
     dt = time.time() - t1
     logging.info(f'\t\t... done, dt ~ {dt:0.2f} (s)')
